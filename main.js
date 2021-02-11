@@ -4,15 +4,16 @@
 myFirstName = ("Lee");
 myLastName = ("Mobley");
 myBestFriend = ("Myranda");
-mySentence = ("this.myBestFriend, this.myLastName, this.myFirstName");
+mySentence = (myBestFriend + " " + myLastName + " " + myFirstName + " ");
 myFavoriteNum = (7);
 myMentalAge = (67);
 myHeight = (69);
 myFavoriteYear = (2021);
-mySum = (3 + 1918 +24 +1); 1946
-myProduct = (232 * 43/ 2 +4); 4992
+mySum = (3 + 1918 +24 +1);
+myProduct = (232 * 43/ 2 +4);
 myHeightAndAge = (myMentalAge + myHeight);
 
+console.log(mySentence);
 
 
 
